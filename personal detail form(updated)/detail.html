@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Detailed Information Form</title>
+</head>
+<body>
+
+  <h1>Personal Details Form</h1>
+
+  <form action="#" method="post">
+
+    <h2>👤 Personal Information</h2>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname" required><br><br>
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname" required><br><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <label for="gender">Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male"> Male<br>
+    <input type="radio" id="female" name="gender" value="Female"> Female<br>
+    <input type="radio" id="other" name="gender" value="Other"> Other<br><br>
+
+    <h2>📞 Contact Information</h2>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone"><br><br>
+
+    <label for="address">Address:</label><br>
+    <textarea id="address" name="address" rows="4" cols="40"></textarea><br><br>
+
+    <h2>🎓 Education Details</h2>
+    <label for="qualification">Highest Qualification:</label>
+    <select id="qualification" name="qualification">
+      <option value="highschool">High School</option>
+      <option value="bachelors">Bachelor's Degree</option>
+      <option value="masters">Master's Degree</option>
+      <option value="phd">PhD</option>
+    </select><br><br>
+
+    <label for="skills">Skills:</label><br>
+    <input type="checkbox" name="skills" value="HTML"> HTML<br>
+    <input type="checkbox" name="skills" value="CSS"> CSS<br>
+    <input type="checkbox" name="skills" value="JavaScript"> JavaScript<br>
+    <input type="checkbox" name="skills" value="Python"> Python<br><br>
+
+    <h2>💬 Feedback</h2>
+    <label for="comments">Your Comments:</label><br>
+    <textarea id="comments" name="comments" rows="5" cols="50"></textarea><br><br>
+
+    <input type="submit" value="Submit Form">
+    <input type="reset" value="Reset">
+
+  </form>
+
+</body>
+</html>
